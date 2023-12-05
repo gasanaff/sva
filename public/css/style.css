@@ -1,0 +1,22 @@
+#server_data table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 600px;
+}
+
+#server_data table td, #server_data table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#server_data table tr:nth-child(even){background-color: #f2f2f2;}
+
+#server_data table tr:hover {background-color: #ddd;}
+
+#server_data table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ff6d30;
+    color: white;
+}
